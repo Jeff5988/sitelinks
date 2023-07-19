@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6{
 div{
     background-color: #EEEEEE;
     width: 80%; /*largura*/
-    max-width: 340px
+    max-width: 340px;
     text-align: center;
     padding: 30px; /*espaçamento interno */
 
@@ -71,9 +71,13 @@ ul a{
     border-radius: 3px;
 }
 
+ul a:hover{
+    background-color: #000000; 
+}
+
 /*ao passar o mouse no seletor*/
 link-rodape{
-    color: #44b53a;   
+    color: #222831;   
 
 }
 
