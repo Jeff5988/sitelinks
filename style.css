@@ -76,12 +76,12 @@ ul a:hover{
 }
 
 /*ao passar o mouse no seletor*/
-link-rodape{
+#link-rodape{
     color: #222831;   
 
 }
 
-link-rodape:hover{
+#link-rodape:hover{
     color: #666666;   
 
 }
