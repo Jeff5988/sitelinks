@@ -1,0 +1,104 @@
+seletor{
+    propriedade: valor;
+
+}
+
+body{
+    background-color: #222831;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+div{
+    background-color: #EEEEEE;
+    width: 80%; /*largura*/
+    max-width: 340px
+    text-align: center;
+    padding: 30px; /*espaçamento interno */
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+}
+
+img{
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #222831;
+}
+
+img:hover{
+    border-color: #393E46;
+}
+
+h1{
+    color: #393E46;   
+    font-size: 32px;
+}
+
+h2{
+    color: #222831;   
+    font-size: 20px;
+}
+
+p{
+    color: #666666;   
+}
+
+ul{
+    list-style-type: none;  
+    margin: 0; 
+    padding: 0;
+}
+
+/* selecionando todos os elementos de uma ul */
+ul a{
+    display: block;
+    background-color: #393E46;   
+    color: #FFFFFF;
+    text-decoration: none;
+
+    margin-bottom: 5px; /*espaçamento externo*/
+    padding-top: 10px; /*espaçamento interno*/
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+/*ao passar o mouse no seletor*/
+link-rodape{
+    color: #44b53a;   
+
+}
+
+link-rodape:hover{
+    color: #666666;   
+
+}
+
+@media (max-width: 414px){
+
+    div{
+        width: 70%;
+    }
+
+    imag{
+        width: 80%;
+        display: none;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+}
